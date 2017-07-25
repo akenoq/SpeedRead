@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<title>SpeedRead</title>
+	<script src="js/jquery-2.0.0.js"></script>
+	<script src="js/load.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="ui-page" id="main">
+		<div class="ui-header">
+			<h1>Load book</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<!-- ссылка для переагрузки страницы -->
+			<a id="restart" href="#"></a>
+			
+			<input type="file" id="inputFile"  onchange = "loadFile(this.files)" style="display: none">
+			<div id="file_name">Your file: </div>
+			<button onclick='getElementById("inputFile").click()'>LOAD</button>
+			<a href="index.html">Back</a>
+			<div id="ansBox"></div>
+			<div id="list_of_files"></div>
+		</div>
+	</div>
+	
+</body>
+</html>
