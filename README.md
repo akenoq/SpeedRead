@@ -1,2 +1,3 @@
 # SpeedRead
-SpeedRead
+
+Рабочая версия: SpeedRead_555
